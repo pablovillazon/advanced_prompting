@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Producto Final
 
 Al finalizar la sesión cada estudiante habrá construido el primer componente de su propia **Enterprise Prompt Library**.

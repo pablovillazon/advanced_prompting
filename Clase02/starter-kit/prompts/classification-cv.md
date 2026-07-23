@@ -10,9 +10,9 @@
 
 # Objetivo
 
-Generar un resumen ejecutivo de una hoja de vida para facilitar la evaluación inicial de candidatos durante un proceso de selección.
+Generar un resumen de clasificacion de una hoja de vida para facilitar la evaluación inicial de candidatos durante un proceso de selección.
 
-El resumen debe destacar únicamente la información relevante para la toma de decisiones, evitando agregar contenido que no exista en el documento original.
+La clasificacion debe ser con base en las categorias y subcategorias que la organizacion maneja.
 
 ---
 
@@ -20,7 +20,7 @@ El resumen debe destacar únicamente la información relevante para la toma de d
 
 Este prompt forma parte del proceso de reclutamiento.
 
-Se ejecuta **después de recibir la hoja de vida** y **antes de la evaluación por parte del reclutador**.
+Se ejecuta **después de realizar el paso de summarize** y **antes de evaluacion**.
 
 ```text
 Recepción CV
@@ -46,13 +46,15 @@ Entrevista
 
 # Entradas
 
-| Variable | Obligatoria | Descripción |
-|------------|-------------|-------------|
-| rol | Sí | Perfil profesional que asumirá el modelo |
-| audiencia | Sí | Persona que leerá el resumen |
-| documento | Sí | Hoja de vida completa |
-| idioma | No | Idioma del resultado |
-| longitud | No | Máximo de palabras |
+
+| Variable | Descripción | Ejemplo |
+|----------|-------------|----------|
+| rol | Rol asumido por el modelo | Analista de Recursos Humanos |
+| tipo_documento | Documento que será analizado | Curriculum Vitae |
+| objetivo | Propósito de la clasificación | Identificar el nivel del candidato |
+| categorias | Categorías posibles | Junior, Semi Senior, Senior |
+| criterios | Aspectos que deben evaluarse | Experiencia, tecnologías, liderazgo |
+| idioma | Idioma de salida | Español |
 
 ---
 
@@ -62,6 +64,8 @@ Entrevista
 |------------|---------------|
 | rol | Analista Senior de Recursos Humanos |
 | audiencia | Gerente de Tecnología |
+| categorias | Junior, Semi-Senior, Senior  |
+| criterios | Años de experiencia, liderazgo técnico, tecnologías utilizadas| 
 | idioma | Español |
 | longitud | 150 palabras |
 
@@ -72,24 +76,28 @@ Entrevista
 ```text
 Actúa como {{rol}}.
 
-Tu responsabilidad consiste en analizar hojas de vida para procesos de selección de personal.
+Analiza el siguiente {{tipo_documento}}.
 
-Genera un resumen ejecutivo dirigido a:
+El objetivo del análisis es:
 
-{{audiencia}}
+{{objetivo}}
 
-Requisitos:
+Clasifica el documento utilizando únicamente las siguientes categorías:
 
-- máximo {{longitud}}
-- idioma {{idioma}}
-- destacar experiencia relevante
-- mencionar tecnologías principales
-- identificar fortalezas
-- no inventar información
+{{categorias}}
 
-Hoja de vida en el documento adjunto.
+La clasificación debe basarse exclusivamente en:
 
-{{documento}}
+{{criterios}}
+
+No inventes información.
+
+Si la información disponible no es suficiente para determinar una categoría, indícalo explícitamente.
+
+Presenta el resultado siguiendo el formato especificado.
+
+Utiliza el documento adjunto.
+
 ```
 
 ---
@@ -108,27 +116,26 @@ El modelo debe:
 
 # Formato Esperado
 
+
 ```markdown
-## Resumen Ejecutivo
-
-### Perfil General
-
+### Clasificación
 ...
 
-### Experiencia Relevante
-
+### Categoría:
 ...
 
-### Competencias Técnicas
-
+### Subcategoría:
 ...
 
-### Formación Académica
-
+### Nivel de confianza:
 ...
 
-### Observaciones
+### Justificación:
+...
 
+### Evidencias encontradas:
+
+### Observaciones:
 ...
 ```
 
@@ -149,37 +156,31 @@ Cuenta con certificaciones Microsoft Azure Fundamentals y Scrum Master.
 # Ejemplo de Salida
 
 ```markdown
-## Resumen Ejecutivo
+### Clasificación
 
-### Perfil General
+### Categoría:
+Senior
 
-Ingeniero de Sistemas con ocho años de experiencia en desarrollo Backend.
+### Subcategoría:
+Backend .NET
 
-### Experiencia Relevante
+### Nivel de confianza:
+95%
 
-Participación en proyectos financieros y de telecomunicaciones utilizando tecnologías Microsoft.
+### Justificación:
+El candidato posee más de ocho años de experiencia, liderazgo técnico y experiencia en arquitecturas empresariales.
 
-### Competencias Técnicas
+### Evidencias encontradas:
 
-.NET
+- Más de ocho años de experiencia.
+- Desarrollo con ASP.NET Core.
+- Arquitecturas de microservicios.
+- Azure DevOps.
+- Docker.
+- Kubernetes.
 
-SQL Server
-
-Azure
-
-Scrum
-
-### Formación
-
-Ingeniería de Sistemas
-
-Certificación Azure Fundamentals
-
-Scrum Master
-
-### Observaciones
-
-Perfil con experiencia sólida en tecnologías Backend Microsoft.
+### Observaciones:
+Perfil adecuado para posiciones Senior Backend.
 ```
 
 ---

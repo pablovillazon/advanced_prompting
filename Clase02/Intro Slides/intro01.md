@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Prompt Engineering Avanzado
 
 ## Clase 2

@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Objetivos de Aprendizaje
 
 Al finalizar la sesión el estudiante será capaz de:
