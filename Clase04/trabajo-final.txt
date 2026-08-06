@@ -1,0 +1,33 @@
+En esta actividad aplicará los conceptos estudiados durante la Clase 4 para convertir el repositorio desarrollado durante el módulo en una Enterprise Prompt Library, incorporando prácticas de PromptOps, versionado, documentación y evaluación de calidad.
+
+Utilice como base el repositorio construido durante las clases anteriores y complete los documentos generados en el laboratorio.
+
+Instrucciones
+1. Abra el repositorio Enterprise Prompt Library desarrollado durante el módulo.
+2. Revise el documento versiones/VERSIONING.md y registre la versión actual del prompt (v2.0).
+3. Actualice el archivo versiones/CHANGELOG.md incorporando las mejoras realizadas desde la versión inicial.
+4. Complete el documento metricas/prompt-scorecard.md asignando una puntuación a cada criterio de calidad utilizando los resultados obtenidos en la Clase 3.
+5. Complete el documento metricas/quality-metrics.md interpretando las métricas obtenidas.
+6. Elabore el archivo metricas/evaluation-dashboard.md con el resumen ejecutivo del estado del prompt.
+7. Verifique que la estructura del repositorio coincida con la descrita en docs/enterprise-prompt-library.md.
+8. Revise que todos los documentos estén organizados y actualizados antes de finalizar la actividad.
+9. Evidencia a entregar
+
+Suba un único archivo PDF que contenga capturas de pantalla donde se evidencie:
+
+- La estructura final del repositorio.
+- El contenido actualizado de VERSIONING.md.
+- El contenido actualizado de CHANGELOG.md.
+- La Prompt Scorecard completada.
+- El Evaluation Dashboard final.
+- La estructura final de la Enterprise Prompt Library.
+
+
+Criterios de evaluación
+
+Criterio	Puntaje
+Organización correcta del repositorio	20%
+Versionado y CHANGELOG correctamente documentados	20%
+Prompt Scorecard correctamente completada	20%
+Evaluation Dashboard elaborado correctamente	20%
+Presentación, claridad y evidencia entregada	20%

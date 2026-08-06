@@ -1,3 +1,7 @@
+---
+marp: false
+---
+
 # Clase 4 - Bloque 1
 # PromptOps: Del Prompt Engineering a la Gestión Organizacional
 
