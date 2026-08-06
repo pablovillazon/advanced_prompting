@@ -27,28 +27,8 @@ Primera versión funcional del prompt.
 
 ---
 
-## v1.1
-**Fecha:** 18/07/2026
-
-### Cambios realizados
-
-- Mejoradas las instrucciones del sistema.
-- Se aclaró que no deben inventarse datos.
-- Se mejoró la redacción del formato esperado.
-- Se incorporaron ejemplos de salida.
-
-### Motivo
-
-Durante las primeras pruebas se observaron respuestas inconsistentes debido a instrucciones ambiguas.
-
-### Estado
-
-✅ Publicado
-
----
-
 ## v2.0
-**Fecha:** 01/08/2026
+**Fecha:** 05/08/2026
 
 ### Cambios realizados
 
@@ -58,6 +38,7 @@ Durante las primeras pruebas se observaron respuestas inconsistentes debido a in
 - Identificación de información faltante.
 - Escala objetiva del nivel de confianza.
 - Separación entre hechos e inferencias.
+- Ignora informacion no relevante.
 
 ### Motivo
 
@@ -66,18 +47,3 @@ Los casos de prueba revelaron que el prompt no manejaba correctamente documentos
 ### Estado
 
 ✅ Versión estable
-
----
-
-## Próxima versión (v2.1)
-
-### Mejoras planificadas
-
-- Clasificación por perfiles técnicos.
-- Identificación automática de tecnologías.
-- Evaluación de habilidades blandas.
-- Generación de recomendaciones para entrevistas.
-
-Estado:
-
-🚧 En desarrollo.

@@ -1,0 +1,72 @@
+# Clasificación
+
+**Categoría:** Senior
+
+**Subcategoría (opcional):** Backend Developer (.NET)
+
+**Nivel de confianza:** Alto
+
+# Justificación
+
+La clasificación como **Senior** se basa en la evidencia explícita del documento. El CV indica **cinco años de experiencia** en desarrollo Backend utilizando tecnologías .NET, diseño de APIs REST y bases de datos relacionales. 
+
+La experiencia profesional muestra una trayectoria continua desde 2019 hasta la actualidad en roles de desarrollo Backend, incluyendo responsabilidades técnicas de complejidad como diseño de microservicios, desarrollo de APIs REST, automatización de procesos, integración con SQL Server e implementación de pruebas unitarias. 
+
+Adicionalmente, el candidato presenta experiencia previa en desarrollo de aplicaciones empresariales, mantenimiento de sistemas heredados, optimización de consultas SQL e integración de servicios REST. 
+
+El perfil técnico se complementa con conocimientos en C#, ASP.NET Core, .NET 8, Entity Framework Core, SQL Server, Docker, Git y Azure DevOps, además de certificaciones relacionadas con Azure y Scrum. 
+
+No obstante, el documento **no presenta evidencia explícita** de liderazgo de equipos, coordinación técnica o responsabilidades de arquitectura a nivel organizacional, por lo que la clasificación se fundamenta exclusivamente en la experiencia técnica documentada.
+
+# Evidencias encontradas
+
+* Ingeniería de Sistemas, Universidad Mayor de San Andrés (2019). 
+* Perfil profesional con cinco años de experiencia en desarrollo Backend utilizando .NET, APIs REST y bases de datos relacionales. 
+* Backend Developer en Digital Solutions S.R.L. (2022 – Actualidad). 
+* Responsabilidades:
+
+  * Desarrollo de APIs REST con ASP.NET Core.
+  * Diseño de microservicios.
+  * Integración con SQL Server.
+  * Automatización de procesos internos.
+  * Implementación de pruebas unitarias. 
+* Desarrolladora .NET en Software Factory Bolivia (2019 – 2022). 
+* Responsabilidades:
+
+  * Desarrollo de aplicaciones empresariales.
+  * Mantenimiento de sistemas heredados.
+  * Optimización de consultas SQL.
+  * Integración de servicios REST. 
+* Tecnologías documentadas:
+
+  * C#
+  * ASP.NET Core
+  * .NET 8
+  * Entity Framework Core
+  * SQL Server
+  * Docker
+  * Git
+  * Azure DevOps. 
+* Certificaciones:
+
+  * Microsoft Azure Fundamentals.
+  * Scrum Fundamentals Certified. 
+
+# Información faltante
+
+* Tamaño y complejidad de los proyectos desarrollados.
+* Impacto o resultados obtenidos en los proyectos.
+* Nivel de autonomía técnica.
+* Evidencia de liderazgo técnico, mentoría o coordinación de equipos.
+* Participación en decisiones de arquitectura o diseño de soluciones.
+* Experiencia con metodologías de desarrollo más allá de la certificación Scrum.
+* Logros cuantificables o métricas de desempeño.
+
+# Inconsistencias detectadas
+
+Ninguna.
+
+# Observaciones
+
+* El documento presenta una trayectoria profesional continua desde 2019 hasta la actualidad sin contradicciones cronológicas. 
+* La información técnica es suficiente para evaluar el perfil en términos de experiencia Backend, aunque no existe evidencia explícita sobre responsabilidades de liderazgo o gestión de equipos. 
